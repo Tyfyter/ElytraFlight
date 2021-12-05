@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "elytraflight",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "Elytra Flight",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "Tyfyter"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -14,16 +14,12 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/elytraflight/icon.png",
 
   "environment": "*",
-  "entrypoints": {
-    "main": [
-      "net.fabricmc.example.ExampleMod"
-    ]
-  },
+  "entrypoints": {},
   "mixins": [
-    "modid.mixins.json"
+    "elytraflight.mixins.json"
   ],
 
   "depends": {
